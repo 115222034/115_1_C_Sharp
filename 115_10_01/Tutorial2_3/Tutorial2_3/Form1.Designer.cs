@@ -30,12 +30,15 @@
         {
             label1 = new Label();
             button1 = new Button();
-            label2 = new Label();
+            showlabel = new Label();
+            button2 = new Button();
+            button3 = new Button();
             SuspendLayout();
             // 
             // label1
             // 
             label1.Font = new Font("華康粗圓體", 36F, FontStyle.Bold | FontStyle.Italic, GraphicsUnit.Point, 136);
+            label1.ForeColor = SystemColors.WindowFrame;
             label1.Location = new Point(-23, 9);
             label1.Name = "label1";
             label1.Size = new Size(1663, 128);
@@ -46,30 +49,56 @@
             // 
             // button1
             // 
-            button1.Location = new Point(324, 222);
+            button1.Font = new Font("華康標楷體", 18F, FontStyle.Regular, GraphicsUnit.Point, 136);
+            button1.Location = new Point(134, 328);
             button1.Name = "button1";
-            button1.Size = new Size(112, 34);
+            button1.Size = new Size(248, 84);
             button1.TabIndex = 1;
-            button1.Text = "button1";
+            button1.Text = "西班牙";
             button1.UseVisualStyleBackColor = true;
+            button1.Click += button1_Click;
             // 
-            // label2
+            // showlabel
             // 
-            label2.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
-            label2.Font = new Font("Rage Italic", 48F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label2.Location = new Point(415, 560);
-            label2.Name = "label2";
-            label2.Size = new Size(723, 141);
-            label2.TabIndex = 2;
-            label2.Text = "label2";
-            label2.TextAlign = ContentAlignment.MiddleCenter;
+            showlabel.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
+            showlabel.Font = new Font("Rage Italic", 48F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            showlabel.Location = new Point(415, 560);
+            showlabel.Name = "showlabel";
+            showlabel.Size = new Size(723, 141);
+            showlabel.TabIndex = 2;
+            showlabel.Text = "こんにさわ";
+            showlabel.TextAlign = ContentAlignment.MiddleCenter;
+            // 
+            // button2
+            // 
+            button2.Font = new Font("華康標楷體", 18F, FontStyle.Regular, GraphicsUnit.Point, 136);
+            button2.Location = new Point(673, 328);
+            button2.Name = "button2";
+            button2.Size = new Size(248, 84);
+            button2.TabIndex = 3;
+            button2.Text = "德國";
+            button2.UseVisualStyleBackColor = true;
+            button2.Click += button2_Click;
+            // 
+            // button3
+            // 
+            button3.Font = new Font("華康標楷體", 18F, FontStyle.Regular, GraphicsUnit.Point, 136);
+            button3.Location = new Point(1208, 328);
+            button3.Name = "button3";
+            button3.Size = new Size(248, 84);
+            button3.TabIndex = 4;
+            button3.Text = "義大利";
+            button3.UseVisualStyleBackColor = true;
+            button3.Click += button3_Click;
             // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(11F, 23F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(1595, 740);
-            Controls.Add(label2);
+            Controls.Add(button3);
+            Controls.Add(button2);
+            Controls.Add(showlabel);
             Controls.Add(button1);
             Controls.Add(label1);
             Name = "Form1";
@@ -81,6 +110,8 @@
 
         private Label label1;
         private Button button1;
-        private Label label2;
+        private Label showlabel;
+        private Button button2;
+        private Button button3;
     }
 }
