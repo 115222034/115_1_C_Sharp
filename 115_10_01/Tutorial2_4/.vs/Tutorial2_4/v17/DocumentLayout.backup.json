@@ -1,10 +1,14 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\m303\\Desktop\\115_1_C_Sharp\\115_10_01\\Tutorial2_4\\",
+  "WorkspaceRootPath": "C:\\Users\\m303\\Documents\\GitHub\\115_1_C_Sharp\\115_10_01\\Tutorial2_4\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{1C4285B0-7566-4184-AF64-9892A0B765F4}|Tutorial2_4\\Tutorial2_4.csproj|c:\\users\\m303\\desktop\\115_1_c_sharp\\115_10_01\\tutorial2_4\\tutorial2_4\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{1C4285B0-7566-4184-AF64-9892A0B765F4}|Tutorial2_4\\Tutorial2_4.csproj|c:\\users\\m303\\documents\\github\\115_1_c_sharp\\115_10_01\\tutorial2_4\\tutorial2_4\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{1C4285B0-7566-4184-AF64-9892A0B765F4}|Tutorial2_4\\Tutorial2_4.csproj|solutionrelative:tutorial2_4\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C4285B0-7566-4184-AF64-9892A0B765F4}|Tutorial2_4\\Tutorial2_4.csproj|c:\\users\\m303\\documents\\github\\115_1_c_sharp\\115_10_01\\tutorial2_4\\tutorial2_4\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1C4285B0-7566-4184-AF64-9892A0B765F4}|Tutorial2_4\\Tutorial2_4.csproj|solutionrelative:tutorial2_4\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,19 +18,36 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{56df62a4-05a3-4e5b-aa1a-99371ccfb997}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\m303\\Documents\\GitHub\\115_1_C_Sharp\\115_10_01\\Tutorial2_4\\Tutorial2_4\\Form1.cs",
+              "RelativeDocumentMoniker": "Tutorial2_4\\Form1.cs",
+              "ToolTip": "C:\\Users\\m303\\Documents\\GitHub\\115_1_C_Sharp\\115_10_01\\Tutorial2_4\\Tutorial2_4\\Form1.cs*",
+              "RelativeToolTip": "Tutorial2_4\\Form1.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-08T08:13:18.09Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Form1.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\m303\\Desktop\\115_1_C_Sharp\\115_10_01\\Tutorial2_4\\Tutorial2_4\\Form1.cs",
+              "Title": "Form1.cs [\u8A2D\u8A08]",
+              "DocumentMoniker": "C:\\Users\\m303\\Documents\\GitHub\\115_1_C_Sharp\\115_10_01\\Tutorial2_4\\Tutorial2_4\\Form1.cs",
               "RelativeDocumentMoniker": "Tutorial2_4\\Form1.cs",
-              "ToolTip": "C:\\Users\\m303\\Desktop\\115_1_C_Sharp\\115_10_01\\Tutorial2_4\\Tutorial2_4\\Form1.cs [Design]",
-              "RelativeToolTip": "Tutorial2_4\\Form1.cs [Design]",
+              "ToolTip": "C:\\Users\\m303\\Documents\\GitHub\\115_1_C_Sharp\\115_10_01\\Tutorial2_4\\Tutorial2_4\\Form1.cs [\u8A2D\u8A08]*",
+              "RelativeToolTip": "Tutorial2_4\\Form1.cs [\u8A2D\u8A08]*",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-10-01T10:05:30.415Z",
-              "EditorCaption": " [Design]"
+              "EditorCaption": " [\u8A2D\u8A08]"
             }
           ]
         }
